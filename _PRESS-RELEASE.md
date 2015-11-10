@@ -1,4 +1,4 @@
-# Project Name #
+GoalsTrackerAssistant
 
 <!-- 
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
@@ -16,29 +16,27 @@ Oh, and I also like to write press-releases in what I call "Oprah-speak" for mai
 Once the project moves into development, the press release can be used as a touchstone; a guiding light. The product team can ask themselves, "Are we building what is in the press release?" If they find they're spending time building things that aren't in the press release (overbuilding), they need to ask themselves why. This keeps product development focused on achieving the customer benefits and not building extraneous stuff that takes longer to build, takes resources to maintain, and doesn't provide real customer benefit (at least not enough to warrant inclusion in the press release).
  -->
  
-## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
+This app helps users keep track of near term goals and guides them to optimize as they are closer to hit the deadline based on mathematical modeling
 
-## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
 
-## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+This app can be useful to people who are close to exams/deadlines to better optimize there time based on the priorities of the deadlines.
 
-## Problem ##
-  > Describe the problem your product solves.
+The app can be your assistant tool to help you achieve your goals and optimized to achieve maximum results based on mathematical modeling techniques
 
-## Solution ##
-  > Describe how your product elegantly solves the problem.
+A lot of people are not able to better track their time when they have multiple deadlines and time pressure. They even forget to prioritize their time on tasks to maximize returns.
 
-## Quote from You ##
-  > A quote from a spokesperson in your company.
+The app keeps track of tasks and does mathematical modeling to suggest the user the best way to keep track 
+
+"Time cease to exist if unplanned. As humans, we always have more things to achieve and time is not enough. Re-evaluate and make time for priority goals on a continuos basis"
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+Start with a small MVP of users input data and performing some of the mathematical modeling on it.
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+"Our employees are using GoalsTrackerAssistant for past 3 months. We have seen an upward of 40% completion of important projects on or before time and reduced focus on unimportant projects"
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+Check out the free version on the website. The enterprise version for your team has a free 2 months trial:  Signup here :@xyz
+
+
+
