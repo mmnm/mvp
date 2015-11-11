@@ -1,0 +1,9 @@
+{
+  "firebase": "goals2week",
+  "public": "public",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

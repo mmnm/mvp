@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<body background="sky1.jpg">
+<script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+  <head>
+    <script src="Goals.js"></script>    
+  </head>
+  <body>
+
+    <h1>Your Personal Goals Assistant - better planning</h1>
+
+    <form>
+      <button style="background-color:lightgreen" type="button" onclick="myAuth()">Login Using Facebook</button>
+<script language="JavaScript">
+
+
+    var ref = new Firebase("https://goals2week.firebaseio.com");
+    var myDataRef = new Firebase('https://goals2week.firebaseio.com');
+
+var myAuth = function() {
+
+ref.authWithOAuthRedirect("facebook", function(error) {
+  if (error) {
+    console.log("Login Failed!", error);
+  } else {
+    // We'll never get here, as the page will redirect on success.
+  }
+});
+
+
+}
+    firstName = "Manu"; 
+
+    document.write("Hello " + firstName + ", Enter details as below, you can just press submit and there will be an example shown to you; if you press 'Add Tasks', then please enter the task name and hours. You can press 'Submit', once you are done adding all tasks"); 
+</script>
+
+<br>
+Enter total commitment ~time (hours) available in 7 days: <input id="tottime" type="number"><br>
+
+      
+      <button type="button" style="background-color:lightgreen" onclick="addNewTask()">Add Tasks</button>
+      <button type="button" style="background-color:lightgreen" onclick="resetTask()">ResetTasks</button>
+      <button type="button" style="background-color:lightgreen" onclick="myFunction()">Submit</button>
+      
+    </form>
+    
+    <p id="displayds"></p>
+
+  </body>
+
+  <body>
+      <p id="parsedenter"></p>
+  </body>
+
+   <body>
+      <p id="parsedresult"></p>
+  </body>
+  <body>
+      <p id="parsedreduce"></p>
+  </body>
+   <body>
+      <p id="parsedcumulative"></p>
+  </body>
+
+
+</html> 
